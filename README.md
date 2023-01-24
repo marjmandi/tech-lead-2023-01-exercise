@@ -15,7 +15,7 @@ Update the diagrams below with the addition of a proposed playlist structure.
 classDiagram
     Episode <|-- Segment
     Media <|-- Segment
-    TextBookChapterSection <|-- TextBookChapter
+    TextBookChapter <|-- TextBookChapterSection
 
    class Episode{
     serial id
